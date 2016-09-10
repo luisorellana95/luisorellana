@@ -1,0 +1,174 @@
+body{
+	margin: 0 0 0 0;
+	padding:0 0 0 0; 
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	font-family: 'Bitter',sans-serif;
+	background-color: #292c2f;
+
+}
+
+
+body p{
+	
+	
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 19px;
+}
+
+nav {
+
+	padding: 24px;
+	text-align: center;
+	font-family: Raleway;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.link-3 {
+	transition: 0.4s;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0px 20px;
+	margin: 0 20px;
+}
+
+.link-3:hover {
+	background-color: #384649;
+	color: #EEA200;
+
+}
+
+.descripcion{
+	
+	background: #E6E8E8;
+	padding-top: 160px;
+	padding-bottom: 20px;
+	display: inline-block;
+	font-family: 'Bitter',serif;
+
+
+	
+
+
+	
+}
+
+
+.descripcion h1{
+	text-align:	center;
+	padding-right: 220px;
+
+}
+.descripcion img{
+	width: 30%
+}
+
+
+
+
+
+.algo{
+	background: #2A3999;
+	color: #ffffff;
+	padding-top:80px;
+	padding-bottom: 20px;
+
+}
+
+
+.conocimientos{
+	background: #E6E8E8;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.conocimientos h1{
+	text-align: center;
+}
+
+.conocimientos img{
+	padding-top: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+	.descripcion img {
+		width: 90%;
+		padding-left: 57px;
+		
+
+	}
+
+	
+}
+
+@media screen and (max-width: 1223px) {
+	
+
+	.descripcion h1{
+		text-align: center;
+		padding-right: 0px;
+	}
+}
+
+
+
+
+
+footer{
+	background-color: #292c2f;
+   
+    box-sizing: border-box;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+
+
+    text-align: center;
+    position: relative;
+    
+    -ms-transform: translateY(-50%);
+   
+   
+
+}
+footer h1{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+footer p{
+	 padding-bottom: 20px;
+
+}
+
+
+footer  i{
+	
+	background-color:  #33383b;
+	color: #ffffff;
+	
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	padding: 12px;
+	vertical-align: middle;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	footer p{
+	 padding-bottom: 20px;
+	 font-size: 14px;
+     }
+
+	
+}
+
